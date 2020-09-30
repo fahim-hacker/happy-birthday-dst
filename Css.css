@@ -1,0 +1,122 @@
+                                            /* Body Coding*/
+
+body{
+ 	background: black;
+ 	color: white;
+}
+
+                                          /*Heading Coding*/
+.heading
+{
+    background: #4949db;
+    height: 52px;
+    margin: 10px 0px;
+    min-width: 1349px;
+
+}
+
+.heading p{
+ 	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 39px;
+	padding: 2px;
+}
+
+                                           /*heading Code ends*/
+
+                                         /*NAVING CODE starts HERE*/
+
+.nav{
+	height: auto;
+	width: 1290px;
+	margin: 29px 34px;
+	margin-bottom: 13px;
+	padding-top: 2px;
+}
+
+.nav .image_1 {
+	height: 217px;
+	border: solid 2px white;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.nav .image_1 img{
+	height: 217px;
+	min-width: 363px;
+	border-right: solid 2px white;
+}
+
+.nav .image_1 .image-txt{
+	width: 0px;
+	font-size: 0px;
+    margin-left:60%;
+    margin-top: -119px;
+	background: blue;
+	text-align: center;
+	border-radius:20px;
+}
+
+
+
+.nav .image_1:hover .image-txt{
+	width: 761px;
+	transition: 2s;
+	padding: 33px;
+	color: black;
+	font-size: 42px;
+	margin-left: 412px;
+	margin-top: -208px;
+	background: blue;
+	font-family: snell Roundhand, cursive;
+}
+
+.nav .image_2 {
+	margin-top:20px; 
+	border:2px solid white;
+	height: 217px;
+}
+
+.nav .image_2 img{
+	height: 217px;
+	min-width: 388px;
+	border-right: 2px solid white;
+}
+
+.nav .image_2 p{
+	padding: 33px;
+	color: black;
+	font-size: 42px;
+	margin-left: 374px;
+	margin-top: -208px;
+}
+
+.nav .image_2:hover p{
+	
+	text-align: center;
+	width: 776px;
+	transition: 2s;
+	padding: 33px;
+	color: black;
+	font-size: 42px;
+	margin-left: 412px;
+	margin-top: -208px;
+	background: blue;
+	font-family: snell Roundhand, cursive;
+	
+	
+}
+
+
+.nav .note {
+		margin: 20px 20px 20px 457px;
+		background: orange;
+		height: 44px;
+		width: 520px;
+		padding: 2px;
+		font-size: 23px;
+		text-align: center;
+}
+
+/*NAVING CODE eends HERE*/
