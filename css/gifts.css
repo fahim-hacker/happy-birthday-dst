@@ -1,5 +1,73 @@
-body{
-	
-	background: black;
-	
+body {
+
+	background: rgb(14, 15, 41);
+
+}
+
+.container {
+	margin-top: 204px;
+	width: 100%;
+
+}
+
+.container .image {
+	height: 261px;
+	width: 339px;
+}
+
+.container .image .img2 {
+	height: auto;
+	width: 450px;
+}
+
+.container .image .img2 img {
+
+	height: 261px;
+	width: 340px;
+}
+
+.container .image .img1 {
+	height: auto;
+	width: auto;
+	margin-top: -264px;
+	transform: translate(340px);
+}
+
+.container .image .img1 img {
+	filter: blur(0px) brightness(140%) contrast(100%) opacity(0);
+	height: 263px;
+	width: 347px;
+
+}
+
+.container .image .img1 p {
+	transform: translate(100px, -162px);
+	width: 266px;
+	line-height: 18.3px;
+	color: #fff0;
+}
+
+.container .image:hover .img1 img {
+
+	filter: blur(0px) brightness(140%) contrast(100%) opacity(0.3);
+	height: 263px;
+	width: 347px;
+
+}
+
+.container .image:hover .img1 p {
+	text-align: center;
+	transform: translate(83px, -154px);
+	width: 536px;
+	line-height: 18.3px;
+	color: white;
+}
+
+.container .image .img3 {
+	height: 268px;
+	width: 347px;
+	float: right;
+	margin-right: -355px;
+	margin-top: -302px;
+	transform: rotateY(180deg);
 }
