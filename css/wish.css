@@ -1,97 +1,69 @@
-	body{
+	body {
 
-	background: pink;
-	
-}
+		background: pink;
 
-.wishes img {
-	 height: 297px;
-  	 width: 516px;
-  	 float: right;
-	 margin-top: 62px;
-	 margin-right: 38px;
- 
-}
+	}
 
-.wishes #ria{
-	
-		float: right;
-		margin: 252px -204px 20px 0;
-		font-size: 41px;
-		color: #c7197b;
-}
+	/*for all images*/
+	img {
+		width: 100%;
+	}
 
-.images .imag img{
-	height: 231px;
-width: 300px;
-float: left;
-margin-top: 438px;
-margin-left: 42px;
-padding-bottom: 20px
-}
+	/*for all 'a'tag */
+	a {
+		text-decoration: none;
+	}
 
-.wishes #wish{
-	overflow: hidden;
-	transition:2s;
-	float: right;
-margin-top: 359px;
-margin-right: -516px;
-font-size: 25px;
-background: white;
-height: 0px;
-width: 442px;
-text-align: center;
-padding-left: 42px;
-padding-right: 32px;
-color: black;
-}
+	/* for the 1st image and its texts*/
+	.wishes {
+		margin-bottom: 88px;
+		padding: 15px;
+		margin-top: 20px;
+	}
 
-.wishes:hover #wish {
-	float: right;
-margin-top: 359px;
-margin-right: -516px;
-font-size: 25px;
-background: white;
-height: 51px;
-width: 442px;
-padding-top: 10px;
-text-align: center;
-padding-left: 42px;
-padding-right: 32px;
-	color: black;
-}
 
-.images #gifts {
-	transition: 1.3s;
-		float: right;
-margin-top: 79px;
-font-size: 37px;
-margin-right: 390px;
-background: pink;
-height: 73px;
-padding-top: 64px;
-padding-bottom: 93px;
-width: 494px;
-text-align: center;
-padding-left: 76px;
-padding-right: 47px;
-color: #fff0;
-}
+	/* this is for the name for the wishing card image */
 
-.images:hover #gifts{
-	color: black;
-	float: right;
-margin-top: 79px;
-font-size: 37px;
-margin-right: 390px;
-background: white;
-height: 73px;
-padding-top: 64px;
-padding-bottom: 93px;
-width: 494px;
-text-align: center;
-padding-left: 76px;
-padding-right: 47px;
-	
-	
-}
+	#ria {
+		font-size: 33px;
+		color: #d41c79;
+		margin-top: -73px;
+		font-style: italic;
+		margin-left: 84px;
+	}
+
+	/* text for the 1st section */
+	#wish {
+		float: left;
+		margin-top: 40px;
+		text-align: center;
+		font-size: 20px;
+		background: white;
+		padding-top: 8px;
+		width: 100%;
+	}
+
+	/* for the 2nd section and its */
+	.images {
+
+		width: 92%;
+		margin-left: 4%;
+	}
+
+	/* for the 2nd image sections image*/
+	.images img {
+
+		overflow: hidden;
+		height: 256px;
+		width: 100%;
+	}
+
+	/* for the 2nd sections text */
+
+	#gifts {
+		background: white;
+		padding: 10px;
+		text-align: center;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
