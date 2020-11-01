@@ -4,9 +4,10 @@ body {
 	text-align: center;
 }
 
-@media only screen and (min-width:292px) {
+
+@media only screen and (min-width:360px) {
 	.heading {
-		padding-bottom: 17px;
+		padding-bottom: 3px;
 		width: 100%;
 	}
 
@@ -19,12 +20,26 @@ body {
 		font-size: 21px;
 	}
 
+	.nav {
+		height: -webkit-fill-available;
+		width: 100%;
+	}
+
+	.image_1 a {
+		width: 21%;
+	}
+
 	.image_1 img {
 		width: 100%;
 		margin-bottom: 4px;
 	}
 
-	.image_1 p {
+	.wraper1 {
+		margin: 0 auto;
+		width: 96%;
+	}
+
+	.image_1 .image-txt {
 		text-align: center;
 		background: blue;
 		border-radius: 3px;
@@ -39,7 +54,7 @@ body {
 		height: 269px;
 	}
 
-	.text_2 p {
+	.text_2 {
 		background: blue;
 		border-radius: 5px;
 		margin: 5px 5px;
@@ -50,7 +65,74 @@ body {
 
 	.note p {
 		background: #f3ad08;
-		margin: 0px 10%;
+		margin: 0;
 		padding: 4px;
+	}
+}
+
+@media only screen and (min-width:455px) {
+
+	.heading {
+		padding: 0px 0px 11px;
+	}
+
+	.heading p {
+		background: blue;
+		width: 100%;
+		padding-bottom: 8px;
+		padding-top: 5px;
+		font-family: arial;
+		font-size: 6vw;
+	}
+
+	.nav {
+		height: -webkit-fill-available;
+		width: 100%;
+	}
+
+
+	.image_1,
+	.image_2 {
+		width: 100%;
+	}
+
+	.image_1 img {
+		width: 72%;
+		padding: 5px;
+	}
+
+	.image_1 .image-txt {
+		width: 100%;
+		background: blue;
+		font-size: 24px;
+		padding: 0px;
+		line-height: 35px;
+		margin: 0px;
+		border-radius: 0px;
+	}
+
+	.image_2 img {
+		width: 73%;
+		padding: 8px;
+	}
+
+	.text_2 {
+		width: 100%;
+		background: blue;
+		font-size: 28px;
+		line-height: 20px;
+		letter-spacing: 2px;
+	}
+
+	.note {
+		width: 100%;
+		font-size: 16px;
+		padding: 8px 0px;
+	}
+
+	.note p {
+		background: orange;
+		padding: 1px;
+		margin: -5px 69px;
 	}
 }

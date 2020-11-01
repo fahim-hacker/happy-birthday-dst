@@ -4,66 +4,97 @@
 
 	}
 
-	/*for all images*/
-	img {
-		width: 100%;
+	@media only screen and (min-width: 360px) {
+
+		.wishes {
+			margin-top: 24px;
+			margin-right: 53px;
+		}
+
+		.wishes img {
+			width: 100%;
+			opacity: 0.7;
+		}
+
+		.wishes p {
+			list-style-type: none;
+			text-decoration: none;
+			color: black;
+			float: left;
+			margin-top: -69px;
+			margin-left: 71px;
+			font-size: 30px;
+		}
+
+		.wishes #wish {
+			text-align: center;
+			background: white;
+			margin-top: -3px;
+			padding-top: 8px;
+			font-size: 20px;
+			width: 100%;
+			margin-left: 0px;
+		}
+
+		.images {
+			width: 100%;
+			display: flex;
+			flex-direction: row-reverse;
+			text-decoration: none;
+		}
 	}
 
-	/*for all 'a'tag */
-	a {
-		text-decoration: none;
+	.imag img {
+		margin-top: 34px;
+		height: 270px;
+		width: 310px;
+		margin-left: 50px;
 	}
 
-	/* for the 1st image and its texts*/
-	.wishes {
-		margin-bottom: 88px;
-		padding: 15px;
-		margin-top: 20px;
-	}
-
-
-	/* this is for the name for the wishing card image */
-
-	#ria {
-		font-size: 33px;
-		color: #d41c79;
-		margin-top: -73px;
-		font-style: italic;
-		margin-left: 84px;
-	}
-
-	/* text for the 1st section */
-	#wish {
-		float: left;
-		margin-top: 40px;
-		text-align: center;
-		font-size: 20px;
+	.images #gifts {
+		float: right;
+		color: black;
 		background: white;
-		padding-top: 8px;
-		width: 100%;
-	}
-
-	/* for the 2nd section and its */
-	.images {
-
-		width: 92%;
-		margin-left: 4%;
-	}
-
-	/* for the 2nd image sections image*/
-	.images img {
-
-		overflow: hidden;
-		height: 256px;
-		width: 100%;
-	}
-
-	/* for the 2nd sections text */
-
-	#gifts {
-		background: white;
-		padding: 10px;
 		text-align: center;
-		font-size: 20px;
-		letter-spacing: 3px;
+		margin-top: -3px;
+		padding: 12px 0px;
+		font-size: 16px;
 	}
+
+
+	@media only screen and (min-width:601px) {
+
+		.wishes,
+		.images,
+		.imag,
+		.imag img,
+		a,
+		#wish {
+			width: 100%;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		#gifts {
+			width: 100%;
+		}
+
+		.wraper {
+			margin: 2% 13%;
+		}
+
+		.images {
+			margin-top: 14%;
+		}
+
+		#wish {
+			padding: 20px 0px;
+		}
+
+		#ria {
+			margin-top: -4.8vh;
+			margin-left: 8vh;
+		}
+	}
+
+	@media only screen and (min-width: 768px) {}

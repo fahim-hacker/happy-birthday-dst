@@ -1,166 +1,33 @@
 body {
-
-	background: rgb(14, 15, 41);
-
+    background: #0a0229;
 }
 
-.container {
-	height: 560px;
-	padding: 1px 3px;
+@media only screen and (min-width:360px) {
+    .gift-image {
+        height: 200px;
+        width: 100%;
+        margin: 39px auto;
+    }
+
+    .gift-image img {
+        width: 100%;
+    }
+
+    .gift-text {
+        margin: 9px 13px;
+        border-radius: 12px;
+        background: #6f71ff;
+        text-align: center;
+        line-height: 6vw;
+        padding: 2vw;
+        font-size: 5vw;
+    }
 }
 
-.image {
-	display: flex;
-	margin-top: 50%;
-	height: 200px;
+@media only screen and (min-width:601px) {
+
+    .gift-image {
+        width: 529px;
+
+    }
 }
-
-.img1 {
-	height: 200px;
-	width: 50%;
-}
-
-.img2 {
-	height: 200px;
-	width: 50%;
-}
-
-img {
-	opacity: 0.6;
-	width: 100%;
-	height: 260px;
-}
-
-.img2 img {
-	transform: rotateY(174deg);
-}
-
-p {
-	line-height: 16px;
-	margin-top: -27%;
-	font-size: 85%;
-	margin-left: 14%;
-	color: white;
-	width: 78%;
-}
-
-@media only screen and (min-width:369px) {
-	p {
-		margin-top: -26%;
-	}
-}
-
-@media only screen and (min-width:379px) {
-	p {
-		margin-top: -25%;
-	}
-}
-
-@media only screen and (min-width:385px) {
-	p {
-		margin-top: -24%;
-	}
-}
-
-@media only screen and (min-width:410px) {
-	p {
-		margin-top: -23%;
-	}
-}
-
-@media only screen and (min-width:412px) {
-	p {
-		width: 290px;
-	}
-
-	@media only screen and (min-width:427px) {
-		p {
-			margin-top: -22%;
-		}
-	}
-
-	@media only screen and (min-width:449px) {
-		p {
-			margin-top: -21%;
-		}
-	}
-
-
-	@media only screen and (min-width:467px) {
-		p {
-			margin-top: -20%;
-			width: 342px;
-		}
-	}
-
-	@media only screen and (min-width:490px) {
-		p {
-			margin-top: -19%;
-		}
-	}
-
-	@media only screen and (min-width:516px) {
-		p {
-			margin-top: -18%;
-			width: 388px;
-			font-size: 16px;
-		}
-	}
-
-	@media only screen and (min-width:545px) {
-		p {
-			margin-top: -17%;
-		}
-	}
-
-	@media only screen and (min-width:567px) {
-		p {
-			width: 408px;
-		}
-	}
-
-	@media only screen and (min-width:575px) {
-		p {
-			margin-top: -16%;
-		}
-	}
-
-	@media only screen and (min-width:612px) {
-		p {
-			margin-top: -15%;
-		}
-	}
-
-	@media only screen and (min-width:649px) {
-		p {
-			width: 485px;
-			line-height: 20px;
-			margin-top: -14%;
-		}
-	}
-
-	@media only screen and (min-width:695px) {
-		p {
-			margin-top: -13%;
-		}
-	}
-
-	@media only screen and (min-width:713px) {
-		p {
-			width: 539px;
-			font-size: 18px;
-		}
-	}
-
-
-	@media only screen and (min-width:746px) {
-		p {
-			margin-top: -12%;
-		}
-	}
-
-	@media only screen and (min-width:790px) {
-		p {
-			width: 659px;
-		}
-	}
